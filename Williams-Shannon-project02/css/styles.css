@@ -1,0 +1,76 @@
+/*---styling of the body---*/
+body{
+	font-family: comic sans MS, georgia, serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	width: 960px;
+	margin: 10px auto;
+	background-color: #f2eaf9;
+}
+
+/*---headline one styling---*/
+h1{
+	font-family: comic sans MS, georgia, serif;
+	color: #652c90;
+	width: 400px;
+	border: 2px solid #652c90;
+	padding: 5px 5px 5px 5px;
+	margin: 5px auto;
+	box-shadow: 2px 2px 2px 1px #902aa8;
+	text-align: center;
+	text-shadow: 1px 2px 1px #902aa8;
+	border-radius: 5px;	
+}
+
+/*---headline two styling---*/
+h2{
+	font-family: comic sans MS, georgia, serif;
+	color: #17a572;
+}
+
+/*---headline three styling---*/
+h3{
+	font-family: comic sans MS, georgia, serif;
+	color: #ba2d9c;	
+	font-weight: bold;
+}
+
+/*---paragraph styling---*/
+p{
+	font-family: comic sans MS, georgia, serif;
+	color: #505051;
+	text-align: justify;
+}
+
+/*---both ordered and unordered lists styling---*/
+ul, ol{
+	font-family: comic sans MS, georgia, serif;
+	color: #54c6a0;
+}
+
+/*---unordered list image for bullets---*/
+ul{
+	list-style-image: url("../images/waves.png");
+}
+
+/*---captions for gallery styling---*/
+figcaption{
+	font-family: comic sans MS, georgia, serif;
+	color: #ba2d9c;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/*---colors for links---*/
+a:link{
+	color: #ba2d9c;
+	}
+a:visited{
+	color: #9ca00a;
+}
+a:hover{
+	color: #54c6a0;
+}
+a:active{
+	color: #b21275;
+}
