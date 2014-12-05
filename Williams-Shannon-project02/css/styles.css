@@ -6,6 +6,8 @@ body{
 	width: 960px;
 	margin: 10px auto;
 	background-color: #f2eaf9;
+	background-image: ("../images/waves.gif");
+	
 }
 
 /*---headline one styling---*/
