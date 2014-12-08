@@ -42,8 +42,8 @@ div#names{
 	font-family: comic sans MS, georgia, serif;
 	color: #17a572;
 }
-.pictures li{
-	display: inline block;
+li.pictures{
+	display: inline;
 	width: 50%;
 	margin-right: 2%;
 }
