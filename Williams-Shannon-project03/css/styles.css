@@ -43,8 +43,8 @@ div#names{
 	color: #17a572;
 }
 .pictures li{
-	width: 50%;
 	display: inline block;
+	width: 50%;
 	margin-right: 2%;
 }
 
