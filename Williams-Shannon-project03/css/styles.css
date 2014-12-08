@@ -2,12 +2,12 @@
 
 .container{
 	width: 100%;
-	margin: 2% auto;
+	margin: 0 auto;
 	padding: 2% auto;
 	font-family: comic sans MS, georgia, serif;
 	font-size: 1em;
 	line-height: 1.5em;
-	background: linear-gradient(#d0bbf9, #b69fe2);
+	background: linear-gradient(#e5def9, #b69fe2);
 }
 
 /*---headline one styling---*/
@@ -25,38 +25,49 @@ h1{
 	background-image: url("../images/waves.gif");
 }
 
-#content, #list{
+div#content{
 	float:left;
-	width:45%;
+	width: 60%;
 	margin: 1%;
+	font-family: comic sans MS, georgia, serif;
+	color: #505051;
+	text-align: justify;
 }
 
-#gallery{
-	float: left;
-	width: 10%;
-	margin: 5% auto;
-	
+div#names{
+	float:left;
+	width: 45%
+	margin-left: 5%;
+	padding: 2%;
+	font-family: comic sans MS, georgia, serif;
+	color: #17a572;
 }
+
+div#pictures{
+	display: inline;
+	margin-right: 2%;
+}
+
 
 /*---headline two styling---*/
 h2{
+	width: 40%;
 	font-family: comic sans MS, georgia, serif;
 	color: #17a572;
 }
 
 /*---headline three styling---*/
 h3{
+	width: 20%;
+	margin: 1%;
 	font-family: comic sans MS, georgia, serif;
 	color: #ba2d9c;	
 	font-weight: bold;
+	text-align: left;
 }
 
 /*---paragraph styling---*/
-p{
-	font-family: comic sans MS, georgia, serif;
-	color: #505051;
-	text-align: justify;
-}
+
 
 /*---both ordered and unordered lists styling---*/
 ul, ol{
@@ -64,10 +75,7 @@ ul, ol{
 	color: #17a572;
 }
 
-/*---unordered list image for bullets---*/
-ul{
-	list-style-image: url("../images/waves.png");
-}
+
 
 /*---captions for gallery styling---*/
 figcaption{
