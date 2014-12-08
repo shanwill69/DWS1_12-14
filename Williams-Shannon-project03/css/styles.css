@@ -42,7 +42,7 @@ div#names{
 	font-family: comic sans MS, georgia, serif;
 	color: #17a572;
 }
-.pictures{
+.pictures li{
 	width: 50%;
 	display: inline block;
 	margin-right: 2%;
