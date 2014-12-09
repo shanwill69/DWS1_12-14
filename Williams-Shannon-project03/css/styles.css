@@ -4,7 +4,7 @@
 	width: 100%;
 	height: 1200px;
 	margin: 0 auto;
-	padding: 2%;
+	padding: 2% 2% 2% 2%;
 	font-family: comic sans MS, georgia, serif;
 	font-size: 1em;
 	line-height: 1.5em;
@@ -17,7 +17,7 @@ h1{
 	color: #652c90;
 	width: 40%;
 	border: 0.125em solid #652c90;
-	padding: 2%;
+	padding: 2% 2% 2% 2%;
 	margin: 1% auto;
 	box-shadow: 0.125em 0.125em 0.125em 0.063em #902aa8;
 	text-align: center;
@@ -40,7 +40,7 @@ div#names{
 	float:left;
 	width: 45%;
 	margin-left: 5%;
-	padding: 2%;
+	padding: 2% 2% 2% 2%;
 	font-family: comic sans MS, georgia, serif;
 	color: #17a572;
 }
