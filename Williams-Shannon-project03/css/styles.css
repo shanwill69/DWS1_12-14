@@ -8,6 +8,7 @@
 	font-size: 1em;
 	line-height: 1.5em;
 	background: linear-gradient(#e5def9, #b69fe2);
+	background-color: hsla(0, 0, 50%, .25);
 }
 
 /*---headline one styling---*/
@@ -23,6 +24,7 @@ h1{
 	text-shadow: 0.05em 0.110em 0.05em #902aa8;
 	border-radius: 0.313em;	
 	background-image: url("../images/waves.gif");
+
 }
 
 div#content{
