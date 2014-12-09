@@ -64,9 +64,10 @@ h3{
 	font-family: comic sans MS, georgia, serif;
 	color: #ba2d9c;	
 	font-weight: bold;
-	text-align: left;
+	text-align: right;
 	background-image: url("../images/camera.png");
 	background-repeat: no-repeat;
+	background-position: left;
 }
 
 
