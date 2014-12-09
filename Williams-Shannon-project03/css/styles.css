@@ -42,6 +42,7 @@ div#names{
 	font-family: comic sans MS, georgia, serif;
 	color: #17a572;
 }
+
 li.pictures{
 	display: inline;
 	width: 50%;
@@ -58,12 +59,16 @@ h2#history{
 /*---headline three styling---*/
 h3{
 	width: 20%;
-	margin: 1%;
+	height: 10%;
+	margin: 0;
 	font-family: comic sans MS, georgia, serif;
 	color: #ba2d9c;	
 	font-weight: bold;
 	text-align: left;
+	background-image: url("../images/camera.png");
+	background-repeat: no-repeat;
 }
+
 
 /*---both ordered and unordered lists styling---*/
 ul, ol{
