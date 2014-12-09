@@ -4,12 +4,11 @@
 	width: 100%;
 	height: 1200px;
 	margin: 0 auto;
-	padding: 2% auto;
+	padding: 2%;
 	font-family: comic sans MS, georgia, serif;
 	font-size: 1em;
 	line-height: 1.5em;
 	background: linear-gradient(#e5def9, #b69fe2);
-	background-color: hsla(0, 0, 50%, .25);
 }
 
 /*---headline one styling---*/
@@ -39,7 +38,7 @@ div#content{
 
 div#names{
 	float:left;
-	width: 45%
+	width: 45%;
 	margin-left: 5%;
 	padding: 2%;
 	font-family: comic sans MS, georgia, serif;
