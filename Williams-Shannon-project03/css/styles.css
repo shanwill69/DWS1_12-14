@@ -2,7 +2,6 @@
 
 .container{
 	width: 100%;
-	height: 1200px;
 	margin: 0 auto;
 	padding: 2% 2% 2% 2%;
 	font-family: comic sans MS, georgia, serif;
@@ -24,12 +23,11 @@ h1{
 	text-shadow: 0.05em 0.110em 0.05em #902aa8;
 	border-radius: 0.313em;	
 	background-image: url("../images/waves.gif");
-
 }
 
 div#content{
 	float:left;
-	width: 60%;
+	width: 40%;
 	margin: 1%;
 	font-family: comic sans MS, georgia, serif;
 	color: #505051;
@@ -44,8 +42,6 @@ div#names{
 	font-family: comic sans MS, georgia, serif;
 	color: #17a572;
 }
-
-
 
 /*---headline two styling---*/
 h2#history{
@@ -84,7 +80,13 @@ ul, ol{
 	font-weight: bold;
 	float: left;
 	width: 30%;
-	margin: 5%;
+	margin: 2%;
+}
+
+#footer{
+	clear: left;
+	text-align: center;
+	color:  #652c90;
 }
 
 /*---colors for links---*/
