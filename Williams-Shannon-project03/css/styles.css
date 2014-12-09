@@ -43,12 +43,7 @@ div#names{
 	color: #17a572;
 }
 
-.pictures{
-	display: inline;
-	width: 50%;
-	margin-right: 2%;
-	
-}
+
 
 /*---headline two styling---*/
 h2#history{
@@ -76,11 +71,13 @@ ul, ol{
 }
 
 /*---captions for gallery styling---*/
-figcaption{
+.caption{
 	font-family: comic sans MS, georgia, serif;
 	color: #ba2d9c;
 	font-style: italic;
 	font-weight: bold;
+	float: left;
+	width: 10%;
 }
 
 /*---colors for links---*/
