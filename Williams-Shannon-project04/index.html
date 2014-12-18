@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Surf Life</title>
+		<link href="css/styles.css" type="text/css" rel="stylesheet"/>
+
+	</head>
+	<body> 
+	<div id="container">
+	<header>
+		<h1>Surfing is a way of life!</h1>
+		<nav>
+			<ul>
+				<li class="navlist"><a href="#history">History</a></li>
+				<li class="navlist"><a href="#gallery">Great Beaches</a></li>
+				<li class="navlist"><a href="#surfers">Top 5</a></li>			
+			</ul>
+		</nav>
+	</header>
+		
+	<article>
+		<h2 id="history">The History of Surfing</h2>
+		
+			<p>For centuries, surfing was a central part of ancient <strong>Polynesian</strong> culture. 
+		   	Surfing may have first been observed by Europeans in Tahiti in 1767 by 
+		   	<strong>Samuel Wallis</strong> and the crew members of the <em>Dolphin</em> who were the first 
+		   	Europeans to visit the island in June of that year. Another candidate is
+		   	the botanist <strong>Joseph Banks</strong> being part of the first voyage of <strong> 
+		   	James Cook</strong> on the <em>HMS Endeavour</em>, who arrived in Tahiti on 10 April 1769. <strong>Lieutenant
+		   	James King</strong> was the first person to write about the art of surfing in Hawaii 
+		   	when he was completing the journals of <strong>Captain James Cook</strong> upon Cook's death
+		   	in 1779.</p>
+		   
+		   <p>When <strong>Mark Twain</strong> visited Hawaii in 1866 he wrote, <q>In one place we came 
+		   upon a large company of naked natives, of both sexes and all ages, amusing 
+		   themselves with the national pastime of surf-bathing.</q></p>
+	</article>
+		
+	<aside id="table">   
+		<h2>Top Five of All Time</h2>
+		
+			<table>
+				<tr>
+					<th>Name</th>
+					<th>Birthdate</th>
+					<th>Country</th>
+				</tr>
+				
+				<tr class="even">
+					<th>The Duke</th>
+					<td>August 24, 1894</td>
+					<td>Honolulu, Hawaii</td>
+				</tr>
+				
+				<tr>
+					<th>Kelly Slater</th>
+					<td>February 11, 1972</td>
+					<td>Cocoa Beach, Florida</td>
+				</tr>
+				
+				<tr class="even">
+					<th>Tom Blake</th>
+					<td>March 8, 1902</td>
+					<td>Milwaukee, Wisconsin</td>
+				</tr>
+				
+				<tr>
+					<th>Tom Curren</th>
+					<td>July 3, 1964</td>
+					<td>Santa Barbara, California</td>
+				</tr>
+				
+				<tr class="even">
+					<th>Laird Hamilton</th>
+					<td>March 2, 1964</td>
+					<td>San Francisco, California</td>
+				</tr>
+			</table>
+	</aside>  
+	
+	<aside class="form">
+		
+		<form action="http://www.example.com/subscribe.php" method="get">
+	
+			<p>Sign In to Surfing Life</p>
+			
+			<p>Username:
+				<input type="text" name="username" size="15" maxlength="20" placeholder="Stan Smith" />
+			</p>
+			<p>Password:
+				<input type="password" name="password" required="required" />
+			</p>
+				<input type="submit" name="submit" value="submit" />
+				
+			<p>Enter your email address</p>
+			<input type="url" name="email" placeholder="example@yahoo.com" />
+				
+			<p>Which do you prefer?
+			<br />
+				<input id="long" type="radio" name="board" value="long">
+				<label for="long">Long Board</label>
+				
+				<input id="short" type="radio" name="board" value="short" checked="checked">
+				<label for="short">Short Board</label>
+			</p>
+
+			<p>Where is your favorite beach?</p>
+			<select name="beaches">
+				<option value="california">California</option>
+				<option value="hawaii">Hawaii</option>
+				<option value="brazil">Brazil</option>
+				<option value="south">South Africa</option>
+				<option value="australia">Australia</option>
+			</select>
+		
+			<p>Who is your favorite surfer?</p>
+			<textarea name="comments" cols="20" rows="2" placeholder="Type name..."></textarea>
+			<input type="submit" name="submit" value="submit" />
+		
+		
+		</form>
+	</aside>
+	
+		<section>
+		<h3 id="gallery">Great Beaches</h3>
+		<ul>
+			<li class="pictures"><figure> 
+				<a href="images/deeWhyAustralia.jpg"><img src="images/deeWhyAustralia.jpg"   
+			   		alt="deewhybeach"
+					title="Dee Why Beach, Australia"
+					width="150"/> 			
+		  			</a>
+				<figcaption class="caption">
+					Dee Why Beach, Australia 
+				</figcaption>
+			</figure></li>
+					
+			<li class="pictures"><figure> 
+				<a href="images/delMarCalif.jpg"><img src="images/delMarCalif.jpg"   
+			   		alt="delmar"
+					title="delmar"
+					width="150"/> 			
+		  			</a>
+				<figcaption class="caption">
+					Del Mar, California 
+				</figcaption>
+			</figure></li>
+				
+			<li class="pictures"><figure> 
+				<a href="images/islaGrandePanama.jpg"><img src="images/islaGrandePanama.jpg"   
+			   		alt="islagrande"
+					title="islagrande"
+					width="150"/> 			
+		  			</a>
+				<figcaption class="caption">
+					Isla Grande, Panama 
+				</figcaption>
+			</figure></li>
+		
+			<li class="pictures"><figure> 
+				<a href="images/kanakaMenehuneHawaii.jpg"><img src="images/kanakaMenehuneHawaii.jpg"   
+			   		alt="kanaka"
+					title="kanaka"
+					width="150"/> 			
+		  			</a>
+				<figcaption class="caption">
+					Kanaka Menehune, Hawaii 
+				</figcaption>
+			</figure></li>
+						
+		</ul>
+		</section>p[;
+		<footer>
+			<p>Created by Shannon R. Williams</p>
+		</footer>
+	</div>		
+	</body>
+</html>			

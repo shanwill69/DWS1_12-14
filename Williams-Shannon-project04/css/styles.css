@@ -1,0 +1,137 @@
+/*---styling of the body---*/
+
+#container{
+	width: 100%;
+	margin: 0 auto;
+	padding: 2% 2% 2% 2%;
+	font-family: comic sans MS, georgia, serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	background: linear-gradient(#e5def9, #b69fe2);
+}
+
+/*---headline one styling---*/
+header{
+	height: 5%;	
+	background-image: url("../images/waves.gif");
+}
+h1{
+	font-family: comic sans MS, georgia, serif;
+	color: #652c90;
+	text-align: center;
+	margin: 1% auto;
+	padding: 2% 2% 2% 2%;	
+}
+
+nav{
+	text-align: center;
+}
+.navlist{
+	display: inline;
+	margin-right: 1%;
+}
+
+article{
+	float:left;
+	width: 350px;
+	margin: 1%;
+	font-family: comic sans MS, georgia, serif;
+	color: #505051;
+	text-align: justify;
+}
+#history{
+	text-align: center;
+}
+
+aside{
+	float:left;
+	width: 350px;
+	margin-top: 5%;
+	margin-left: 3%;
+	padding: 1% 0 1% 0;
+	font-family: comic sans MS, georgia, serif;
+	text-align: center;
+	color: #17a572;
+	background-color: #bbf9f4;
+	border: 1px solid #652c90;
+}
+
+.form{
+	width: 350px;
+	margin-left: 3%;
+	padding: 1% 0 1% 0;
+	text-align: center;
+	background-color: #e5def9;
+	border: 1px solid #652c90;
+}
+
+th{
+	padding: 1% 1% 1% 1%;
+	font-size: 1em;
+	border-bottom: 1px solid #bbf9f4;
+	text-align: left;
+}
+
+tr.even{
+	background-color: #e5def9;
+}
+
+tr:hover{
+	background-color: #e5def9;
+}
+
+/*---headline two styling---*/
+
+
+/*---headline three styling---*/
+#gallery{
+	width: 20%;
+	height: 10%;
+	margin: 0;
+	font-family: comic sans MS, georgia, serif;
+	color: #ba2d9c;	
+	font-weight: bold;
+	text-align: center;
+}
+
+
+/*---both ordered and unordered lists styling---*/
+ul, ol{
+	font-family: comic sans MS, georgia, serif;
+	color: #17a572;
+}
+
+.pictures{
+	float: left;
+	width: 25%;
+}
+/*---captions for gallery styling---*/
+.caption{
+	width: 40%;
+	font-size: .75em;
+	font-family: comic sans MS, georgia, serif;
+	color: #ba2d9c;
+	font-style: italic;
+	font-weight: bold;
+	clear: float;	
+}
+
+footer{
+	clear: left;
+	text-align: center;
+	color:  #652c90;
+}
+
+/*---colors for links---*/
+a:link{
+	color: #ba2d9c;
+}
+a:visited{
+	color: #472fd3;
+}
+a:hover{
+	color: #652c90;
+}
+a:active{
+	color: #b21275;
+}
